@@ -18,7 +18,10 @@ for(const u of units){
  }
  for(const p of u.pins)assert(u.words.some(w=>w.word===p[0]),p[0]);
 }
-for(const name of ['index.html','app.js','data.js','pictures.js','style.css']){
+const index=fs.readFileSync(new URL('index.html',root),'utf8');
+const learningOnly=index.replace(/<(header|section)\b[^>]*data-bilingual[^>]*>[\s\S]*?<\/\1>/g,'');
+assert(!/[\p{Script=Han}]/u.test(learningOnly),'Chinese must stay inside the bilingual top sections');
+for(const name of ['app.js','data.js','pictures.js','style.css']){
  assert(!/[\p{Script=Han}]/u.test(fs.readFileSync(new URL(name,root),'utf8')),`${name} contains Chinese`);
 }
 // Exercise the real app controller with a small DOM adapter and a controlled clock.
@@ -42,4 +45,4 @@ action('retry');click({answer:'u1-1'});assert.equal(state().level,1);action('qui
 now+=86400000;action('new-quiz');action('begin-quiz');click({answer:'u1-1'});assert.equal(state().level,2);assert.equal(state().due,now+3*86400000);
 click({answer:'wrong-answer'});assert.equal(state().level,2,'duplicate submissions cannot change a result');
 action('quiz-next');now+=3*86400000;action('new-quiz');action('begin-quiz');click({answer:'u1-1'});assert.equal(state().level,3);assert.equal(state().due,now+7*86400000);
-console.log('PASS: 142 visual entries, all scene pins, English-only shipped content, self-report limits, wrong-answer queue, retry, duplicate protection and 1/3/7-day review progression.');
+console.log('PASS: 142 visual entries, all scene pins, English-only learning content with bilingual top sections, self-report limits, wrong-answer queue, retry, duplicate protection and 1/3/7-day review progression.');

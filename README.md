@@ -1,6 +1,8 @@
 # Word Town
 
-A buildless, English-only visual vocabulary website. Pictures, close-ups, little action sequences and clock faces connect directly to English. There are no translated definitions or Chinese prompts in the shipped app.
+A buildless visual vocabulary website. The brand, navigation and welcome section are bilingual English/Chinese. Pictures, close-ups, little action sequences and clock faces connect directly to English; the scene map and all learning activities remain English-only, without translated definitions.
+
+[Live website](https://word-town-morgan-4a.brown-degu-4255.chatgpt.site) · [GitHub source](https://github.com/pierpont-morgan/word-town)
 
 ## Use and maintain
 
@@ -16,7 +18,7 @@ Shanghai Education Press, Grade 4 Book 1, five-four system, 2024-approved new ed
 
 References: [public textbook text](https://www.scribd.com/document/1068243842/%E6%96%B0-4%E4%B8%8A), [edition listing](https://www.cozylingo.com/content/wxt_1576).
 
-`data/source.md` preserves the research notes. `data/memories.txt` retains the editorial draft; the generator exports only its English example and symbol. `data/visuals.mjs` supplies 142 visual cues and the English scene text. The delivered `dist/` contains no Chinese text.
+`data/source.md` preserves the research notes. `data/memories.txt` retains the editorial draft; the generator exports only its English example and symbol. `data/visuals.mjs` supplies 142 visual cues and the English scene text. Chinese is limited to the two top sections marked `data-bilingual` in `dist/index.html`.
 
 ## Visual assets
 
