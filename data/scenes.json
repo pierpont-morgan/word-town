@@ -1,0 +1,312 @@
+[
+  {
+    "title": "我的校园",
+    "en": "My school",
+    "headline": "走进我的校园",
+    "story": "清晨，走过竹林和操场。每一扇教室的窗，都藏着一个新发现。",
+    "color": "#e5efe6",
+    "icon": "school",
+    "place": "校园",
+    "pins": [
+      [
+        "classroom",
+        40,
+        38
+      ],
+      [
+        "sports field",
+        50,
+        59
+      ],
+      [
+        "school building",
+        66,
+        27
+      ],
+      [
+        "bamboo",
+        9,
+        37
+      ]
+    ]
+  },
+  {
+    "title": "我的同学",
+    "en": "My classmates",
+    "headline": "和朋友一起长大",
+    "story": "有人分享故事，有人伸出援手。跟着同学的一举一动，认识描述人的词。",
+    "color": "#f6e5d6",
+    "icon": "friends",
+    "place": "教室",
+    "pins": [
+      [
+        "helpful",
+        67,
+        59
+      ],
+      [
+        "polite",
+        30,
+        43
+      ],
+      [
+        "great",
+        55,
+        74
+      ],
+      [
+        "lovely",
+        88,
+        40
+      ]
+    ]
+  },
+  {
+    "title": "动物的家",
+    "en": "Animals and their homes",
+    "headline": "拜访动物朋友",
+    "story": "从竹林到冰原，找找动物的家。看一看它们的颜色、身体和家人。",
+    "color": "#e7eddb",
+    "icon": "leaf",
+    "place": "动物家园",
+    "pins": [
+      [
+        "panda",
+        26,
+        73
+      ],
+      [
+        "elephant",
+        72,
+        53
+      ],
+      [
+        "polar bear",
+        81,
+        18
+      ],
+      [
+        "monkey",
+        27,
+        27
+      ]
+    ]
+  },
+  {
+    "title": "生日派对",
+    "en": "Our birthday",
+    "headline": "一场暖暖的生日会",
+    "story": "递出邀请，分享蛋糕，再送上一份祝福。让生日的每个瞬间帮你记住单词。",
+    "color": "#f4e1dc",
+    "icon": "cake",
+    "place": "生日派对",
+    "pins": [
+      [
+        "party",
+        53,
+        21
+      ],
+      [
+        "share a cake",
+        52,
+        70
+      ],
+      [
+        "letter",
+        87,
+        89
+      ],
+      [
+        "bowl",
+        32,
+        83
+      ]
+    ]
+  },
+  {
+    "title": "逛逛街区",
+    "en": "Visiting places",
+    "headline": "沿着小河去探险",
+    "story": "闻着面包香穿过街区，走过石桥，再坐上小船。每个地方都有自己的名字。",
+    "color": "#e3edf0",
+    "icon": "map",
+    "place": "水乡街区",
+    "pins": [
+      [
+        "bakery",
+        89,
+        52
+      ],
+      [
+        "bridge",
+        40,
+        48
+      ],
+      [
+        "boat",
+        64,
+        79
+      ],
+      [
+        "shop",
+        17,
+        40
+      ]
+    ]
+  },
+  {
+    "title": "秋日农场",
+    "en": "It’s autumn!",
+    "headline": "收集秋天的颜色",
+    "story": "苹果熟了，大雁向南飞。跟着农场里的孩子，捡起一片片秋日记忆。",
+    "color": "#f4e8cf",
+    "icon": "apple",
+    "place": "秋日农场",
+    "pins": [
+      [
+        "apple",
+        29,
+        27
+      ],
+      [
+        "fly south",
+        74,
+        16
+      ],
+      [
+        "farm",
+        49,
+        59
+      ],
+      [
+        "pine tree",
+        87,
+        38
+      ]
+    ]
+  },
+  {
+    "title": "早餐时光",
+    "en": "My healthy breakfast",
+    "headline": "一口早餐，一份能量",
+    "story": "温热的粥、香甜的水果和一杯奶。把单词放上餐桌，开始有精神的一天。",
+    "color": "#f5e9cf",
+    "icon": "cup",
+    "place": "早餐桌",
+    "pins": [
+      [
+        "porridge",
+        27,
+        60
+      ],
+      [
+        "milk",
+        42,
+        26
+      ],
+      [
+        "banana",
+        60,
+        48
+      ],
+      [
+        "juice",
+        70,
+        35
+      ]
+    ]
+  },
+  {
+    "title": "诚实小故事",
+    "en": "Be honest",
+    "headline": "做一个值得信任的朋友",
+    "story": "弄坏玩偶后，该怎么办？跟着故事练习说真话、归还物品和信守承诺。",
+    "color": "#e9e3ee",
+    "icon": "heart",
+    "place": "朋友家",
+    "pins": [
+      [
+        "doll",
+        51,
+        53
+      ],
+      [
+        "pot",
+        33,
+        77
+      ],
+      [
+        "seed",
+        58,
+        87
+      ],
+      [
+        "honest",
+        26,
+        44
+      ]
+    ]
+  },
+  {
+    "title": "时间小屋",
+    "en": "What time is it?",
+    "headline": "听，时间在滴答",
+    "story": "看钟表的两根针，想一想现在的时间。窗外的月亮也来提醒你：夜晚到了。",
+    "color": "#e5e6f0",
+    "icon": "clock",
+    "place": "时间小屋",
+    "pins": [
+      [
+        "time",
+        34,
+        28
+      ],
+      [
+        "hour hand",
+        31,
+        32
+      ],
+      [
+        "the moon",
+        90,
+        20
+      ],
+      [
+        "evening",
+        51,
+        73
+      ]
+    ]
+  },
+  {
+    "title": "天气观察站",
+    "en": "Weather",
+    "headline": "今天的天空是什么样？",
+    "story": "阳光、云朵、风和雨，都在给天空换衣服。带上小羊和陆龟，一起观察天气。",
+    "color": "#e1edf3",
+    "icon": "sun",
+    "place": "天气观察站",
+    "pins": [
+      [
+        "sunny",
+        18,
+        15
+      ],
+      [
+        "rainy",
+        80,
+        27
+      ],
+      [
+        "lamb",
+        25,
+        68
+      ],
+      [
+        "tortoise",
+        45,
+        82
+      ]
+    ]
+  }
+]
